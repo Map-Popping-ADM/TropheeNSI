@@ -1,25 +1,3 @@
-import React from 'react';
-import { SafeAreaView } from 'react-native';
-import { Divider, Icon, Layout, Text, TopNavigation, TopNavigationAction } from '@ui-kitten/components';
-import { MenuItem, OverflowMenu } from '@ui-kitten/components';
-
-// icons
-const BackIcon = (props) => (
-  <Icon {...props} name='arrow-back' />
-);
-const EditIcon = (props) => (
-  <Icon {...props} name='edit'/>
-);
-const MenuIcon = (props) => (
-  <Icon {...props} name='more-vertical'/>
-);
-const Parametre = (props) => (
-  <Icon {...props} name='settings-2-outline'/>
-);
-const Info = (props) => (
-  <Icon {...props} name='info-outline'/>
-);
-
 export const DetailsScreen = ({ navigation }) => {
 
   const [menuVisible, setMenuVisible] = React.useState(false);
