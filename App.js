@@ -19,6 +19,7 @@ export default function App() {
         // Pour utiliser la couleur du bg : theme["background-basic-color-1"]
       />
       <IconRegistry icons={EvaIconsPack}/>
+      {/* TODO créer un variable pour changer le thème */}
       <ApplicationProvider {...eva} theme={eva.dark}>
         <AppNavigator/>
       </ApplicationProvider>
